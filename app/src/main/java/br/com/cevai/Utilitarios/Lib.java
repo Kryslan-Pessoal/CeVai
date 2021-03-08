@@ -6,7 +6,7 @@ import android.util.Log;
 import androidx.appcompat.app.AlertDialog;
 import br.com.cevai.R;
 
-
+/** Classe com métodos utilitários diversos */
 public class Lib {
 
     //LOG

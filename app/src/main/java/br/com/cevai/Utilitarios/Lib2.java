@@ -5,7 +5,6 @@ import android.content.Context;
 import android.util.Log;
 
 /** Classe com métodos utilitários diversos */
-
 public class Lib2 {
 
     //region LOGs

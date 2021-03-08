@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Ce Vai?</string>
+    <string name="Nao_tem_uma_conta_ce_vai_pontoDeInterrocacao">Não tem uma conta Cê Vai?</string>
+    <string name="Cadastre_se"><u>Cadastre-se</u></string>
+    <string name="Nos_vamos_pontoDeExclamacao">Nós Vamos!</string>
 </resources>

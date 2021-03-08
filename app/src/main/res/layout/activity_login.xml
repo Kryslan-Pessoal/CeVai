@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/areaNaoTemUmaConta_relativeLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo_ce_vai"
+
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+
+                android:text="@string/app_name"
+                android:textColor="@color/primary_text"
+                android:textSize="26sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+
+                android:text="@string/Nos_vamos_pontoDeExclamacao"
+                android:textColor="@color/primary_text"
+                android:textSize="12sp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:text="ENTRAR COM GOOGLE"
+                android:background="@color/vermelho_forte"
+
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:text="ENTRAR COM FACEBOOK"
+                android:background="@color/vermelho_forte"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:text="ENTRAR COM SUA CONTA"
+                android:background="@color/vermelho_forte"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Esqueceu a senha?"
+                android:textColor="@color/secondary_text"
+
+                android:paddingTop="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/areaNaoTemUmaConta_relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/Nao_tem_uma_conta_ce_vai_pontoDeInterrocacao"
+
+                android:textColor="@color/secondary_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/Cadastre_se"
+
+                android:textColor="@color/primary_text"
+
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
