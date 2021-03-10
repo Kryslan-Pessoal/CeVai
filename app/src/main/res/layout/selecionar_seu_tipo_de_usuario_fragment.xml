@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/voce_e_pontoDeInterrogacao"
+            android:textColor="@color/primary_text"
+            android:textSize="24sp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/myRadioGroup">
+
+            <RadioButton
+                android:id="@+id/aluno_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/aluno"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"/>
+
+            <RadioButton
+                android:id="@+id/motorista_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/motorista"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"/>
+
+            <RadioButton
+                android:id="@+id/responsavelPeloAluno_radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/responsavel_pelo_aluno"
+                android:textSize="16sp"
+                android:layout_marginBottom="5dp"/>
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/ok_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:textColor="@color/secundary"
+            android:textStyle="bold"
+            android:text="OK"
+
+            android:paddingTop="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="70dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -18,6 +18,8 @@
         </activity>
 
         <activity android:name=".MainActivity"/>
+
+        <activity android:name=".CadastroDeUsuario.CadastroDeUsuarioActivity"/>
     </application>
 
 </manifest>

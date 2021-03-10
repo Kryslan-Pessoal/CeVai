@@ -3,4 +3,9 @@
     <string name="Nao_tem_uma_conta_ce_vai_pontoDeInterrocacao">Não tem uma conta Cê Vai?</string>
     <string name="Cadastre_se"><u>Cadastre-se</u></string>
     <string name="Nos_vamos_pontoDeExclamacao">Nós Vamos!</string>
+    <string name="voce_e_pontoDeInterrogacao">Você é?</string>
+    <string name="responsavel_pelo_aluno">Responsável pelo Aluno</string>
+    <string name="motorista">Motorista</string>
+    <string name="aluno">Aluno</string>
+    <string name="logo_do_aplicativo">Logo do Aplicativo</string>
 </resources>
